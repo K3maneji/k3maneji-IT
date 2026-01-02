@@ -1039,7 +1039,7 @@
         }
         
         .loader-logo {
-            font-size: 3rem;
+            font-size: 2rem;
             font-weight: 700;
             color: #fff;
             margin-bottom: 20px;
@@ -1342,4 +1342,5 @@
                 width: 250px;
                 justify-content: center;
             }
+
         }
