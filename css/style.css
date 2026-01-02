@@ -103,10 +103,10 @@
             width: 50px;
             height: 50px;
             display: inline-block;
-            filter: 
+            /**filter: 
                 drop-shadow(0 0 20px #4400ff)
                 drop-shadow(0 0 10px #9c06d8) 
-                drop-shadow(0 0 20px #5e0083);
+                drop-shadow(0 0 20px #5e0083);**/
         }
 
         .logo-type-loader {
@@ -1344,3 +1344,4 @@
             }
 
         }
+
