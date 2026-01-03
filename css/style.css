@@ -1062,7 +1062,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            border-radius: 50%;
+            border-radius: 100%;
             border: 4px solid transparent;
             border-top-color: #6c63ff;
             animation: spin 1.5s linear infinite;
@@ -1344,5 +1344,6 @@
             }
 
         }
+
 
 
