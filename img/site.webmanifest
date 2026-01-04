@@ -1,0 +1,112 @@
+{
+  "name": "IT Услуги: создание сайтов, тех обслуживание устройств",
+  "short_name": "K3manejiPortfolio",
+  "description": "Профессиональная IT-помощь: создание сайтов и веб-приложений, ремонт и настройка устройств удалённо. Решаю проблемы с Android, iOS, Windows и macOS дистанционно.",
+  "start_url": "https://k3maneji.github.io/k3maneji-IT/",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#6c63ff",
+  "orientation": "portrait",
+  "scope": "/",
+  "lang": "ru",
+  "dir": "ltr",
+  "categories": ["technology", "business", "productivity"],
+  "icons": [
+    {
+      "src": "img/LogoK3.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/LogoK3.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/LogoK3.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/LogoK3.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/LogoK3.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/LogoK3.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "img/LogoK3.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "img/LogoK3.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "img/ING_2016.JPEG",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "Главная страница портфолио"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Заказать услугу",
+      "short_name": "Заказ",
+      "description": "Связаться для заказа услуги",
+      "url": "/#contact",
+      "icons": [
+        {
+          "src": "img/LogoK3.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Портфолио",
+      "short_name": "Работы",
+      "description": "Посмотреть мои работы",
+      "url": "/#portfolio",
+      "icons": [
+        {
+          "src": "img/LogoK3.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "protocol_handlers": [],
+  "share_target": {
+    "action": "/#contact",
+    "method": "GET",
+    "enctype": "application/x-www-form-urlencoded",
+    "params": {
+      "title": "name",
+      "text": "message",
+      "url": "subject"
+    }
+  }
+}
